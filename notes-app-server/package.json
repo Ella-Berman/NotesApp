@@ -1,9 +1,12 @@
 {
+  "homepage": "https://Ella-Berman.github.io/NotesApp/",
   "name": "notes-app-server",
   "version": "1.0.0",
   "main": "./src/index.ts",
   "scripts": {
-    "start": "npx nodemon"
+    "start": "npx nodemon",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
