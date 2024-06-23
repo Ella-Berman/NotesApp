@@ -1,3 +1,5 @@
+SEE NEW VERSION: Notes-App repo
+
  Notes app implemented using React and NodeJS that saves data to a PostgreSQL database.
 
  Skills: React, Node.js, PostgreSQL, Prisma
